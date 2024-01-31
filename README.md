@@ -25,6 +25,6 @@ The MATLAB code implements a Level 2 simulation of the 5G NR Unlicensed channel 
 
 The simulation models the process of UEs attempting to access the channel, handling collisions through a backoff mechanism, and calculating the probability of successful transmission. The backoff mechanism adjusts dynamically based on the history of transmissions and collisions, aiming to mitigate collisions and optimize channel usage.
 ### SL-U simulation
-Run `slu_sim.m` for SL-U simulation results shown in Table2;
+Run `slu_sim.m` for SL-U simulation results shown in Table2.
 ### Analysis and throughput results:
 Run `analysis.m` to get the analytical model results in Table 2-4.
