@@ -23,7 +23,7 @@ The MATLAB code implements a Level 2 simulation of the 5G NR Unlicensed channel 
    - Calculate the probability of transmission (`tau_nr`) as the ratio of the mean of transmission count to the sum of the mean of transmission count and the mean of non-transmission count for all UEs.
    - Print out the probability of transmission.
 
-The simulation models the process of UEs attempting to access the channel, handling collisions through a backoff mechanism, and calculating the probability of successful transmission. The backoff mechanism adjusts dynamically based on the history of transmissions and collisions, aiming to mitigate collisions and optimize channel usage.
+The simulation models the process of UEs attempting to access the channel, handling collisions through a backoff mechanism, and calculating the probability of successful transmission. 
 ### SL-U simulation
 Run `slu_sim.m` for SL-U simulation results shown in Table2.
 ### Analysis and throughput results:
